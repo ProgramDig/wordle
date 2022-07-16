@@ -21,3 +21,37 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.tile {
+	/* box */
+	border: 2px solid lightgray;
+	width: 60px;
+	height: 60px;
+	margin: 2.5px;
+
+	/* text */
+	color: black;
+	font-size: 36px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.correct {
+	background-color: #6AAA64;
+	color: #fff;
+	border-color: #fff;
+}
+
+.present {
+	background-color: #C9B458;
+	color: #fff;
+	border-color: #fff;
+}
+
+.absent {
+	background-color: #787C7E;
+	color: #fff;
+	border-color: #fff;
+}
